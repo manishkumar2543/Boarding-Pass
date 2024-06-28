@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/green-plane-ecofriendly-environment_23-2151582429.jpg?t=st=1719585932~exp=1719589532~hmac=24b2da74af459e4796bf27b94731ae0cccac93df64fade866df2f6d23e3a7d01&w=1060);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Box{
+    height: 70%;
+    width: 50%;
+  backdrop-filter: blur(15px);
+   background-size: cover;
+   background-position: center;
+    
+}
+.bar-code{
+    height: 100px;
+    width: 300px;
+   margin-top: 25%;
+    
+   
+   
+}
+.content{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    
+   
+}
+.information-box h2{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+}
+.information-box{
+    backdrop-filter: blur(10px);
+    background-color: rgb(232, 224, 224);
+
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.information-box p{
+    color: rgb(49, 48, 48);
+
+    font-size: 15px;
+}
+.bar-code img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: rotate(270deg);
+
+    
+ 
+}
+.ndl-to-bnl{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+.NDL h1, .BNL h1{
+    color: blue;
+}
+.information-box h5{
+    font-size: 15px;
+    color: rgb(27, 27, 186);
+}
+.time-tabel{
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.all-deatail{
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+    justify-content: center;
+    padding: 20px 0;
+}
+.number{
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+}
+
